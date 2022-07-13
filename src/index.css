@@ -1,0 +1,29 @@
+:root {
+    --rose: #D93D66;
+    --roseLight: #D96F66;
+    --blue: #16048C;
+    --blueLight: #3F46BF;
+    --black: #1C2026;
+    --gray: #F6F5F5;
+    --white: #fff;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    box-sizing: inherit;
+    font-size: 1.6rem;
+    background-color: var(--gray);
+}
+
+*,::before, ::after {
+  box-sizing: initial;
+}
+
+.container {
+  max-width: min(90%, 192rem );
+}

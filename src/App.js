@@ -1,8 +1,11 @@
-import React from 'react';
+import './stylesheets/App.css';
 
 const App = () => {
+  const main = document.querySelector('.main');
   return (
-    console.log('Estoy en react')
+    <div className="container main">
+      <h1>Webpack Basic</h1>
+    </div>
   )
 }
 
